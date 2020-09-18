@@ -8,3 +8,9 @@ function findMatching(x,name){
     return result;
 }
 
+function fuzzyMatch(x,litter){
+    let result= x.filter(index=>
+        index.startsWith(litter)
+    )
+    return result;
+}
