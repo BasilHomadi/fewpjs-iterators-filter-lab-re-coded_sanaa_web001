@@ -7,4 +7,4 @@ function findMatching(x,name){
     )
     return result;
 }
-console.log(findMatching(drivers,'sam'));
+// console.log(findMatching(drivers,'sam'));
