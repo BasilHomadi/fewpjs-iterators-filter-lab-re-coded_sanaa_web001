@@ -14,3 +14,10 @@ function fuzzyMatch(x,litter){
     )
     return result;
 }
+
+function matchName (x,y){
+    let result= x.filter (index=>
+        index.name ===y
+    )
+    return result;
+}
